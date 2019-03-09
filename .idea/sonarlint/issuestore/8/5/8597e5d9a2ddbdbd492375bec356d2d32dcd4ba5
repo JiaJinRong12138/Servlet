@@ -1,0 +1,20 @@
+
+]squid:S1161":Add the "@Override" annotation above this method signature(šŒêóûÿÿÿÿ8¡¼ó…•-
+Hsquid:S19894"%Add a "try/catch" block for "doPost".(³æ£õùÿÿÿÿ8’ƒô…•-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷…–½øÿÿÿÿ8©ÓÔœ•-
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(š¤×úıÿÿÿÿ8ìöÙœ•-
+Isquid:S1989+"&Add a "try/catch" block for "valueOf".(Õ£³ıÿÿÿÿ8¥Ú¶•-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶¸ıÿÿÿÿ
+Isquid:S1989-"&Add a "try/catch" block for "forward".(ë½Ìûÿÿÿÿ8Û¿¶•-
+Dsquid:S1989/"&Add a "try/catch" block for "forward".(ô•´«8şôĞ•-
+asquid:UselessImportCheck"1Remove this unused import 'javax.jws.WebService'.(‡œĞ£ıÿÿÿÿ8¦¯œ•-
+Vsquid:S1989("3Add a "try/catch" block for "setCharacterEncoding".(áò‰øÿÿÿÿ8ÃÇË•-
+Isquid:S1989-"&Add a "try/catch" block for "forward".(ë½Ìûÿÿÿÿ8Û¿¶•-
+Xsquid:S11613":Add the "@Override" annotation above this method signature(ùŠœ¬8¡¼ó…•-
+Hsquid:S19894"%Add a "try/catch" block for "doPost".(³æ£õùÿÿÿÿ8’ƒô…•-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï¯·õùÿÿÿÿ8Ÿ­²•-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(êêŸøÿÿÿÿ8Œ—×œ•-
+Dsquid:S1989/"&Add a "try/catch" block for "forward".(ô•´«8şôĞ•-
