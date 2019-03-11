@@ -16,7 +16,10 @@
   <form action="test" method="post">
     name:<input type="text" name="name"><br>
     age:<input tyep="number" name="age"><br>
+    爱好 ： LOL<input type="checkbox" name="hobits" value="lol">
+    DOTA<input type="checkbox" name="hobits" value="dota"> <br>
     <input type="submit" value="提交">
   </form>
+
   </body>
 </html>

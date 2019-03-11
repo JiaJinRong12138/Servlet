@@ -82,3 +82,53 @@
 
 
 ## Request常用方法
+###一、常用方法
+>* getRequestURL():获取请求的完整的URL
+>* getRequestURI():获取请求的部分资源名（去掉请求协议和主机名）
+>* getQueryString():获取请求行的参数（只能显示Get请求的参数）
+>* getRemoteAddr():获取客户端IP地址
+>* getRemotePort():获取客户端请求端口
+>* getLocalAddr():获取服务器IP
+>* getLocalName():获取服务器的主机名
+>* getLocalPort():获取服务器端口号
+>* getMethod():获取请求方法
+
+###二、获取参数
+>* getParameter(String name):获取参数名为name的值
+>* getParameterValue(String name):获取具有多个值的参数（如CheckBox），并返回String[]值
+>* getparameterMap():遍历所有参数，并返回Map<String, String[]>值
+
+###三、获取请求头
+>* getHeater(String name):获取请求头信息
+   >>请求头信息：
+   >>* host:主机地址
+   >>* user-agent:浏览器基本资料
+   >>* accept:浏览器接受的数据类型
+   >>* accept-language:浏览器接受的语言
+   >>* accept-encoding:浏览器接受的[压缩方式]()
+   >>* connection:是否保持链接
+   >>* cache-control:缓存时限
+>* getHeaderNames():获取所有请求头信息
+
+###四、服务器传参
+>* setAttribute:转递参数
+>* getAttribute:获取
+
+## Response用法
+>1. 获取PrintWriter对象
+`PrintWriter pw = response.getWriter();`
+>2. 设置响应格式 --- 可实现下载功能
+`response.setContentType("格式");`
+>3. 设置编码
+>>`response.setContentType("text/html;charset=UTF-8");`
+>>`response.setCharacterEncoding("UTF-8");`
+>4. 301或者302跳转
+>>客户端两种跳转：
+>>>302：临时跳转
+>>>`response.sendRedirect("url");`
+>>>301：永久性跳转
+>>```
+>>>response.setStatus(301);
+>>>response.setHeader("location", "url);
+>>>```
+
