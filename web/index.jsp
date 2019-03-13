@@ -11,14 +11,10 @@
     <title>Test</title>
   </head>
   <body>
-  Hello Servlet
-  <h1>测试表单</h1>
-  <form action="test" method="post">
-    name:<input type="text" name="name"><br>
-    age:<input tyep="number" name="age"><br>
-    爱好 ： LOL<input type="checkbox" name="hobits" value="lol">
-    DOTA<input type="checkbox" name="hobits" value="dota"> <br>
-    <input type="submit" value="提交">
+  <form action="uploadphoto" method="post" enctype="multipart/form-data">
+      name:<input type="text" name="name" /><br>
+      img:<input type="file" name="file" /><br>
+      <input type="submit" value="上传">
   </form>
 
   </body>

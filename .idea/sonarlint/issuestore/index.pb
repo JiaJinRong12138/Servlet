@@ -3,8 +3,6 @@
 web/index.jsp,9\f\9f198ed450f32e45b10ec3c2b1406e609b4a96cd
 C
 web/WEB-INF/web.xml,c\d\cdcc12da5c4054f6995aab32914d7e0243194c05
-T
-$src/com/servletTest/ServletTest.java,8\5\8597e5d9a2ddbdbd492375bec356d2d32dcd4ba5
 =
 web/fail.html,5\7\5782ff6ddbc3d284bc781d60a0b2eff86de38359
 @
@@ -19,3 +17,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 I
 How2J_Servlet_class_1.iml,1\8\1874bcd508ca1723d5102d5a67569d80d44fdd3e
+T
+$src/com/servletTest/UploadPhoto.java,8\3\836614db58d1b50862f772a66df3e866e52d7fad
